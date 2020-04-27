@@ -15,6 +15,10 @@ Rendering to a TextureView results in corrupt data in the texture storage. In pr
 
 Values written to a texture view in particular format can correctly be read from that texture view in the same format independent from the underlying texture storage format as long as the formats are compatible for texture view according to the OpenGL specification.
 
+![Correct Rendering](https://github.com/adevaykin/AMDRenderToTextureView/blob/master/results/correct.PNG)
+
 ### Actual
 
 All tested AMD GPUs return unexpected data while sampling a texture view previously used as a framebuffer attachment for rendering.
+
+![Buggy Rendering](https://github.com/adevaykin/AMDRenderToTextureView/blob/master/results/amd.JPG)
