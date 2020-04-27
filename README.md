@@ -4,6 +4,7 @@ Repro case for AMD bug report https://community.amd.com/message/2909820
 ## How to use
 1. Open solution in Visual Studio (2019)
 2. Compile and run
+3. Displayed image should show smooth UV coordinates change drawn as color - compare to the attached results
 
 Directory "results" contains screenshots from other GPU vendors renderings and from AMD GPU renderings.
 
